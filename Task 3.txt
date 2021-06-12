@@ -1,0 +1,20 @@
+Task Description:
+
+Create a Live Streaming Video Chat App without voice using cv2 module of Python.
+
+
+VIDEO DATA TRANSMISSION: At Client Side::
+a. Receive packets and append them to data.
+b. Unpacking the dat using STRUCT module.
+c. Load the frame using PICKLE.
+d. Display the frame at the client side.
+
+
+
+VIDEO DATA TRANSMISSION: At Server Side::
+a. With OpenCV get video frames of webcam.
+b. With PICKLE serialize frame to byte data.
+c. Pack each frame data using STRUCT module.
+d. Send data to client and display frame.
+
+
